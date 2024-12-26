@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "description": "disable major updates for fontawesome and bootstrap",
+      "matchDepNames": ["@fortawesome/fontawesome-free", "bootstrap"],
+      "matchUpdateTypes": "major",
+      "matchManagers": ["npm"],
+      "enabled": false
+    }
+  ]
+}
